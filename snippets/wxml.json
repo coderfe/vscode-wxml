@@ -1,0 +1,152 @@
+{
+  "view": {
+    "prefix": "view",
+    "body": "<view class=\"$1\">$2</view>$3",
+    "description": "视图容器"
+  },
+  "scroll-view": {
+    "prefix": "scroll-view",
+    "body": "<scroll-view>$1</scroll-view>$2",
+    "description": "可滚动视图区域"
+  },
+  "swiper": {
+    "prefix": "swiper",
+    "body": [
+      "<swiper indicator-dots=\"{{${1:indicatorDots}}}\" autoplay=\"{{${2:autoplay}}}\" interval=\"{{${3:interval}}}\" duration=\"{{${4:duration}}}\">",
+      "\t<block wx:for=\"{{${5:imgUrls}}}\">",
+      "\t\t<swiper-item>",
+      "\t\t\t<image src=\"{{${6:item}}}\" class=\"slide-image\" />",
+      "\t\t</swiper-item>",
+      "\t</block>",
+      "</swiper>$7"
+    ],
+    "description": "滑块视图容器"
+  },
+  "icon": {
+    "prefix": "icon",
+    "body": "<icon type=\"$1\" size=\"$2\" color=\"$3\" />$4",
+    "description": "图标"
+  },
+  "text": {
+    "prefix": "text",
+    "body": "<text>$1</text>$2",
+    "description": "文本"
+  },
+  "progress": {
+    "prefix": "progress",
+    "body": "<progress percent=\"$1\" color=\"$2\" />$3",
+    "description": "进度条"
+  },
+  "button": {
+    "prefix": "button",
+    "body": "<button type=\"$1\" size=\"$2\" loading=\"$3\" plain=\"$4\" bindtap=\"$5\"></button>$6",
+    "description": "按钮"
+  },
+  "checkbox-group": {
+    "prefix": "checkboxGroup",
+    "body": [
+      "<checkbox-group>",
+      "\t<label class=\"$1\" wx:for=\"{{${2:item}}}\">",
+      "\t\t<checkbox value=\"${2:item}.${3:name}\" />{{${2:item}.${4:value}}}",
+      "\t</label>",
+      "</checkbox-group>$5"
+    ],
+    "description": "多项选择器"
+  },
+  "radio-group": {
+    "prefix": "radioGroup",
+    "body": [
+      "<radio-group>",
+      "\t<label class=\"$1\" wx:for=\"{{${2:item}}}\">",
+      "\t\t<radio value=\"${2:item}.${3:name}\" />{{${2:item}.${4:value}}}",
+      "\t</label>",
+      "</checkbox-group>$5"
+    ],
+    "description": "多项选择器"
+  },
+  "form": {
+    "prefix": "form",
+    "body": "<form bindsubmit=\"$1\" bindreset=\"$2\">$3</form>$4",
+    "description": "表单"
+  },
+  "input": {
+    "prefix": "input",
+    "body": "<input type=\"$1\" placeholder=\"$2\" ${3:auto-focus} ${4:password} />$5",
+    "description": "自动聚焦的input"
+  },
+  "picker-time": {
+    "prefix": "pickerTime",
+    "body": [
+      "<picker mode=\"time\" start=\"${1:xx:xx}\" end=\"${2:xx:xx}\">$3</picker>$4"
+    ],
+    "description": "时间选择器"
+  },
+  "picker-date": {
+    "prefix": "pickerDate",
+    "body": [
+      "<picker mode=\"date\" start=\"${1:xxxx-xx-xx}\" end=\"${2:xxxx-xx-xx}\">$3</picker>$4"
+    ],
+    "description": "日期选择器"
+  },
+  "slider": {
+    "prefix": "slider",
+    "body": "<slider min=\"$1\" max=\"$2\" step=\"$3\" />$4",
+    "description": "滑动选择器"
+  },
+  "switch": {
+    "prefix": "switch",
+    "body": "<switch checked=\"${1:false}\" />$2",
+    "description": "开关选择器"
+  },
+  "actoin-sheet": {
+    "prefix": "actionSheet",
+    "body": [
+      "<action-sheet>",
+      "\t<block wx:for=\"{{${1:actionSheetItems}}}\">",
+      "\t\t<action-sheet-item class=\"item\" data-name=\"{{${2:item}}}\" />{{${2:item}}}</action-sheet-item>",
+      "\t</block>",
+      "</action-sheet>$3"
+    ],
+    "description": "从屏幕底部出现的菜单表"
+  },
+  "modal": {
+    "prefix": "modal",
+    "body": "<modal>$1</modal>$2",
+    "description": "模态弹窗"
+  },
+  "toast": {
+    "prefix": "toast",
+    "body": "<toast>$1</toast>$2",
+    "description": "消息提示框"
+  },
+  "loading": {
+    "prefix": "loading",
+    "body": "<loading>$1</loading>$2",
+    "description": "加载提示"
+  },
+  "navigator": {
+    "prefix": "navigator",
+    "body": "<navigator url=\"$1\" ${2:redirect} hover-class=\"$3\">$4</navigator>$5",
+    "description": "导航"
+  },
+  "audio": {
+    "prefix": "audio",
+    "body": "<audio src=\"$1\"></audio>$2",
+    "description": "音频"
+  },
+  "image": {
+    "prefix": "image",
+    "body": "<image src=\"$1\" mode=\"$2\" />$2",
+    "description": "图片"
+  },
+  "video": {
+    "prefix": "video",
+    "body": "<video src=\"$1\"></video>$2",
+    "description": "视频"
+  },
+  "map": {
+    "prefix": "map",
+    "body": "<map longitude=\"$1\" latitude=\"$2\"></map>$3",
+    "description": "地图"
+  }
+}
