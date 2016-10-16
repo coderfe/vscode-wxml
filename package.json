@@ -23,7 +23,15 @@
   },
   "categories": [
     "Languages",
-    "Snippets"
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "weapp",
+    "wechat",
+    "weixin",
+    "微信",
+    "wxml"
   ],
   "contributes": {
     "languages": [
