@@ -1,0 +1,10 @@
+language: node_js
+node_js: 
+  - '6'
+before_install:
+  - 'git clone https://github.com/coderfe/vscode-wxml'
+  - 'cd vscode-wxml'
+install:
+  - npm install -g vsce
+script:
+  - vsce publish patch -p oq5xq7ni7r63rpc2uvagibsdhnuvdpka6hfcqpz4agcx5ns5wdoa
