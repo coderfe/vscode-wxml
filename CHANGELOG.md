@@ -1,4 +1,7 @@
 # Change Log
 
+## 0.0.13
+- Add some new snippets
+
 ## 0.0.12
-- 微信小程序 wxml snippets
+- Wechat wxml language support

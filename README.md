@@ -10,7 +10,7 @@ Wechat app wxml code snippets for VSCode.
 1. `Ctrl + Shift + P` or `Cmd + Shift + P`
 2. Type `vscode-wxml`
 
-## Supported languages
+## Supported language
 
 - wxml
 

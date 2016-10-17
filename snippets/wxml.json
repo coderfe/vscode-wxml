@@ -111,7 +111,7 @@
   },
   "modal": {
     "prefix": "modal",
-    "body": "<modal>$1</modal>$2",
+    "body": "<modal title=\"$1\" confirm-text=\"$2\" cancel-text=\"$3\" bindconfirm=\"$4\" bindcancel=\"$5\">$6</modal>$7",
     "description": "模态弹窗"
   },
   "toast": {
@@ -126,12 +126,12 @@
   },
   "navigator": {
     "prefix": "navigator",
-    "body": "<navigator url=\"$1\" ${2:redirect} hover-class=\"$3\">$4</navigator>$5",
+    "body": "<navigator url=\"$1\" ${2:redirect} hover-class=\"${3:className}\">$4</navigator>$5",
     "description": "导航"
   },
   "audio": {
     "prefix": "audio",
-    "body": "<audio src=\"$1\"></audio>$2",
+    "body": "<audio src=\"$1\" ${2:controls} ${3:loop}></audio>$2",
     "description": "音频"
   },
   "image": {
@@ -148,5 +148,25 @@
     "prefix": "map",
     "body": "<map longitude=\"$1\" latitude=\"$2\"></map>$3",
     "description": "地图"
+  },
+  "wx:for": {
+    "prefix": "wxfor",
+    "body": "wx:for=\"{{item in ${1:items}}}\"",
+    "description": "列表渲染"
+  },
+  "wx:if": {
+    "prefix": "wxif",
+    "body": "wx:if=\"{{condition}}\"",
+    "description": "条件渲染else if"
+  },
+  "wx:elif": {
+    "prefix": "wxelif",
+    "body": "wx:elif=\"{{condition}}\"",
+    "description": "条件渲染else"
+  },
+  "bindtap": {
+    "prefix": "bindtap",
+    "body": "bindtap=\"${1:tapname}\"",
+    "description": "绑定事件"
   }
 }
