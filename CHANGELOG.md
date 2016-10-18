@@ -1,7 +1,9 @@
-# Change Log
+# 更新日志
 
-## 0.0.13
-- Add some new snippets
+## v0.0.13 ~ 0.0.16
 
-## 0.0.12
-- Wechat wxml language support
+- 添加了新的代码片段，优化提示功能。
+
+## v0.0.12
+
+- 为微信小程序的 wxml 语法提供支持。
