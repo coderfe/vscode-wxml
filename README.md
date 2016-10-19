@@ -1,6 +1,6 @@
 # 微信小程序 wxml
 
-为 VSCode 提供 wxml 代码片段
+为 VSCode 提供 wxml 语法支持及代码片段
 
 [![version](http://vsmarketplacebadge.apphb.com/version/coderfee.vscode-wxml.svg)](http://vsmarketplacebadge.apphb.com/version/coderfee.vscode-wxml.svg)
 [![installs](http://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-wxml.svg)](http://vsmarketplacebadge.apphb.com/installs/coderfee.vscode-wxml.svg)
@@ -12,4 +12,4 @@
 
 ## 使用
 
-![vscode-weapp-snippets](http://oaz5uxplb.bkt.clouddn.com/wxml.gif)
+![vscode-weapp-snippets](http://oaz5uxplb.bkt.clouddn.com/vscode-wxml.gif)
