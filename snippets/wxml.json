@@ -157,12 +157,12 @@
   "wx:if": {
     "prefix": "wxif",
     "body": "wx:if=\"{{condition}}\"",
-    "description": "条件渲染else if"
+    "description": "条件渲染if"
   },
   "wx:elif": {
     "prefix": "wxelif",
     "body": "wx:elif=\"{{condition}}\"",
-    "description": "条件渲染else"
+    "description": "条件渲染else if"
   },
   "bindtap": {
     "prefix": "bindtap",

@@ -12,4 +12,22 @@
 
 ## 使用
 
+**关键词不区分大小写**
+
+| 关键词           | 代码片段                          | 关键词         | 代码片段                          |
+| ------------- | ----------------------------- | ----------- | ----------------------------- |
+| view          | <view></view>                 | PickerDate  | <picker mode="date"></picker> |
+| swiper        | <swiper></swiper>             | slider      | <slider />                    |
+| icon          | <icon />                      | switch      | <switch />                    |
+| text          | <text></text>                 | actionSheet | <action-sheet></action-sheet> |
+| progress      | <progress />                  | modal       | <modal></modal>               |
+| button        | <button></button>             | toast       | <toast></toast>               |
+| checkboxGroup | <check-group></check-group>   | loading     | <loading></loading>           |
+| radioGroup    | <radio-group></radio-group>   | navigator   | <navigator></navigator>       |
+| form          | <form></form>                 | audio       | <audio></audio>               |
+| input         | <input></input>               | video       | <video></video>               |
+| pickerTime    | <picker mode="time"></picker> | map         | <map></map>                   |
+| wxfor         | wx:for="{{item in items}}"    | wxif        | wx:if="{{condition}}"         |
+| wxelif        | wx:elif="{{condition}}"       | bindtap     | bindtap="bindTapName"         |
+
 ![vscode-weapp-snippets](http://oaz5uxplb.bkt.clouddn.com/vscode-wxml.gif)
