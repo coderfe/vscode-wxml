@@ -12,22 +12,57 @@
 
 ## 使用
 
-**关键词不区分大小写**
-
-| 关键词           | 代码片段                          | 关键词         | 代码片段                          |
-| ------------- | ----------------------------- | ----------- | ----------------------------- |
-| view          | <view></view>                 | PickerDate  | <picker mode="date"></picker> |
-| swiper        | <swiper></swiper>             | slider      | <slider />                    |
-| icon          | <icon />                      | switch      | <switch />                    |
-| text          | <text></text>                 | actionSheet | <action-sheet></action-sheet> |
-| progress      | <progress />                  | modal       | <modal></modal>               |
-| button        | <button></button>             | toast       | <toast></toast>               |
-| checkboxGroup | <check-group></check-group>   | loading     | <loading></loading>           |
-| radioGroup    | <radio-group></radio-group>   | navigator   | <navigator></navigator>       |
-| form          | <form></form>                 | audio       | <audio></audio>               |
-| input         | <input></input>               | video       | <video></video>               |
-| pickerTime    | <picker mode="time"></picker> | map         | <map></map>                   |
-| wxfor         | wx:for="{{item in items}}"    | wxif        | wx:if="{{condition}}"         |
-| wxelif        | wx:elif="{{condition}}"       | bindtap     | bindtap="bindTapName"         |
+键入关键词，然后回车。关键词不区分大小写
 
 ![vscode-weapp-snippets](http://oaz5uxplb.bkt.clouddn.com/vscode-wxml.gif)
+
+#### 代码示例
+
+- swiper
+
+  ```html
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  ```
+
+- actionsheet
+
+  ```html
+  <action-sheet>
+    <block wx:for="{{actionSheetItems}}">
+      <action-sheet-item class="item" data-name="{{item}}" />{{item}}</action-sheet-item>
+    </block>
+  </action-sheet>
+  ```
+
+- checkgroup
+
+  ```html
+  <checkbox-group>
+    <label class="" wx:for="{{item}}">
+      <checkbox value="item.name" />{{item.value}}
+    </label>
+  </checkbox-group>
+  ```
+
+- wxfor
+
+  ```html
+  wx:for="{{item in items}}"
+  ```
+
+- button
+
+  ```html
+  <button type="" size="" loading="" plain="" bindtap=""></button>
+  ```
+
+- ······more
+
+
+**Enjoy!​​**
