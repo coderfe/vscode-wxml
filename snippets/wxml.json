@@ -151,7 +151,7 @@
   },
   "wx:for": {
     "prefix": "wxfor",
-    "body": "wx:for=\"{{item in ${1:items}}}\"",
+    "body": "wx:for=\"{{${1:items}}}\"",
     "description": "列表渲染"
   },
   "wx:if": {
