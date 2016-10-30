@@ -1,12 +1,12 @@
 {
   "view": {
     "prefix": "view",
-    "body": "<view class=\"$1\">$2</view>$3",
+    "body": "<view>$2</view>$3",
     "description": "视图容器"
   },
   "scroll-view": {
     "prefix": "scroll-view",
-    "body": "<scroll-view>$1</scroll-view>$2",
+    "body": "<scroll-view scroll-${1:x}=\"$2\">$3</scroll-view>$4",
     "description": "可滚动视图区域"
   },
   "swiper": {
@@ -32,22 +32,26 @@
     "body": "<text>$1</text>$2",
     "description": "文本"
   },
+  "textarea": {
+    "prefix": "textarea",
+    "body": "<textarea placeholder=\"${1:placeholder}\" />"
+  },
   "progress": {
     "prefix": "progress",
-    "body": "<progress percent=\"$1\" color=\"$2\" />$3",
+    "body": "<progress percent=\"$1\" color=\"$2\" stroke-width=\"${3:6}\" ${4:active} ${5:show-info} />$6",
     "description": "进度条"
   },
   "button": {
     "prefix": "button",
-    "body": "<button type=\"$1\" size=\"$2\" loading=\"$3\" plain=\"$4\" bindtap=\"$5\"></button>$6",
+    "body": "<button type=\"${1:default}\" size=\"${2:defaultSize}\" loading=\"${3:loading}\" plain=\"${4:plain}}\" disabled=\"${5:disabled}\" bindtap=\"${6:defaultTap}\" hover-class=\"${6:other-button-hover}\"> Button </button>",
     "description": "按钮"
   },
   "checkbox-group": {
     "prefix": "checkboxGroup",
     "body": [
       "<checkbox-group>",
-      "\t<label class=\"$1\" wx:for=\"{{${2:item}}}\">",
-      "\t\t<checkbox value=\"${2:item}.${3:name}\" />{{${2:item}.${4:value}}}",
+      "\t<label wx:for=\"{{${1:item}}}\">",
+      "\t\t<checkbox value=\"${1:item}.${3:name}\" />{{${1:item}.${4:value}}}",
       "\t</label>",
       "</checkbox-group>$5"
     ],
