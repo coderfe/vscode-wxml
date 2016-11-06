@@ -1,5 +1,11 @@
 # 更新日志
 
+## v0.1.6
+
+- 增加了一些参数说明
+
+![vscode/wxml-dwscription.gif](http://oaz5uxplb.bkt.clouddn.com/vscode/wxml-dwscription.gif)
+
 ## v0.1.5
 
 - 增加官方更新的代码片段

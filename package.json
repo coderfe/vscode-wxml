@@ -2,7 +2,7 @@
     "name": "vscode-wxml",
     "displayName": "vscode wxml",
     "description": "Wechat wxml support/snippets for vscode",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "icon": "images/weapp.png",
     "publisher": "coderfee",
     "author": {
