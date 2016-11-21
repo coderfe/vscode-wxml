@@ -52,7 +52,7 @@
   },
   "button": {
     "prefix": "button",
-    "body": "<button type=\"${1:default}\" size=\"${2:defaultSize}\" loading=\"${3:loading}\" plain=\"${4:plain}}\" disabled=\"${5:disabled}\" bindtap=\"${6:defaultTap}\" hover-class=\"${6:other-button-hover}\">${7:Button}</button>$8",
+    "body": "<button type=\"${1:default}\" size=\"${2:defaultSize}\" loading=\"${3:loading}\" plain=\"${4:plain}\" disabled=\"${5:disabled}\" bindtap=\"${6:defaultTap}\" hover-class=\"${6:other-button-hover}\">${7:Button}</button>$8",
     "description": "size 有效值 default, mini\n\ntype 按钮的样式类型，有效值 primary, default, warn\n\nplain 按钮是否镂空，背景色透明\n\ndisabled 是否禁用\n\nloading 名称前是否带 loading 图标\n\nform-type 有效值：submit, reset，用于 <form/> 组件，点击分别会触发 submit/reset 事件\n\nhover-class 指定按钮按下去的样式类。当 hover-class=\"none\" 时，没有点击态效果"
   },
   "checkbox-group": {
