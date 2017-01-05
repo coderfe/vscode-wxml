@@ -73,7 +73,7 @@
       "\t<label class=\"$1\" wx:for=\"{{${2:item}}}\">",
       "\t\t<radio value=\"${2:item}.${3:name}\" />{{${2:item}.${4:value}}}",
       "\t</label>",
-      "</checkbox-group>$5"
+      "</radio-group>$5"
     ],
     "description": "多项选择器"
   },
